@@ -6,11 +6,16 @@ import 'package:stacked_services/stacked_services.dart';
 @StackedApp(routes: [
   MaterialRoute(page: LoginScreenView, initial: true),
   MaterialRoute(page: HomeView),
-  // MaterialRoute(page: SecondView),
+  // TODO: Add your routes here
 ], dependencies: [
   LazySingleton(classType: DialogService),
   LazySingleton(classType: NavigationService),
   LazySingleton(classType: BottomSheetService),
   LazySingleton(classType: SnackbarService),
+  //TODO: Inject your dependencies here
 ])
 class AppSetup {}
+
+
+// TODO: Use this command to generate new outputs
+// flutter pub run build_runner build --delete-conflicting-outputs
