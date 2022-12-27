@@ -12,6 +12,8 @@ import 'package:stacked_services/src/dialog/dialog_service.dart';
 import 'package:stacked_services/src/navigation/navigation_service.dart';
 import 'package:stacked_services/src/snackbar/snackbar_service.dart';
 
+import '../model/cart_service.dart';
+
 final locator = StackedLocator.instance;
 
 Future<void> setupLocator(
@@ -25,4 +27,5 @@ Future<void> setupLocator(
   locator.registerLazySingleton(() => NavigationService());
   locator.registerLazySingleton(() => BottomSheetService());
   locator.registerLazySingleton(() => SnackbarService());
+  locator.registerLazySingleton(() => CartService());
 }

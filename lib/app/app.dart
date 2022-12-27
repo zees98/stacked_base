@@ -1,4 +1,5 @@
 import 'package:stacked/stacked_annotations.dart';
+import 'package:stacked_base/model/cart_service.dart';
 import 'package:stacked_base/views/home-view/home_view.dart';
 import 'package:stacked_base/views/login_screen/login_screen_view.dart';
 import 'package:stacked_services/stacked_services.dart';
@@ -12,6 +13,7 @@ import 'package:stacked_services/stacked_services.dart';
   LazySingleton(classType: NavigationService),
   LazySingleton(classType: BottomSheetService),
   LazySingleton(classType: SnackbarService),
+  LazySingleton(classType: CartService),
   //TODO: Inject your dependencies here
 ])
 class AppSetup {}
