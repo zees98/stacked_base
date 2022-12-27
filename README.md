@@ -24,3 +24,9 @@ This project is based on the guide from the following article:
 https://www.filledstacks.com/post/new-setup-for-flutter-stacked-state-management/
 
 > NOTE: I do not own any packages used in the project. If anything breaks due to project version, free feel to submit a PR or create an issue.'
+
+<br>
+
+**Project by: Zeeshan Ali Hamdani**
+<br />
+_Professional Flutter developer_
